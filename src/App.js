@@ -22,14 +22,14 @@ export default function App() {
       
       
       <Routes>
-        <Route basename="/NewsFever-react" path="/" element={<News setprogress={setprogress} apikey={apikey} key="home" pageSize={pageSize} country="in" category="" />} />
-        <Route basename="/NewsFever-react" path="/general" element={<News setprogress={setprogress} apikey={apikey} key="general " pageSize={pageSize} country="in" category="general" />} />
-        {/* <Route basename="/NewsFever-react" path="/business " element={<News setprogress={setprogress} apikey={apikey} key="business" pageSize={pageSize} country="in" category="business" />} /> */}
-        <Route basename="/NewsFever-react" path="/entertainment" element={<News setprogress={setprogress} apikey={apikey} key="entertainment" pageSize={pageSize} country="in" category="entertainment" />} />
-        <Route basename="/NewsFever-react" path="/health" element={<News setprogress={setprogress} apikey={apikey} key="health" pageSize={pageSize} country="in" category="health" />} />
-        <Route basename="/NewsFever-react" path="/science" element={<News setprogress={setprogress} apikey={apikey} key="science" pageSize={pageSize} country="in" category="science" />} />
-        <Route basename="/NewsFever-react" path="/sports" element={<News setprogress={setprogress} apikey={apikey} key="sports" pageSize={pageSize} country="in" category="sports" />} />
-        <Route basename="/NewsFever-react" path="/technology" element={<News setprogress={setprogress} apikey={apikey} key="technology" pageSize={pageSize} country="in" category="technology" />} />
+        <Route path="/" element={<News setprogress={setprogress} apikey={apikey} key="home" pageSize={pageSize} country="in" category="" />} />
+        <Route path="/general" element={<News setprogress={setprogress} apikey={apikey} key="general " pageSize={pageSize} country="in" category="general" />} />
+        {/* <Route path="/business " element={<News setprogress={setprogress} apikey={apikey} key="business" pageSize={pageSize} country="in" category="business" />} /> */}
+        <Route path="/entertainment" element={<News setprogress={setprogress} apikey={apikey} key="entertainment" pageSize={pageSize} country="in" category="entertainment" />} />
+        <Route path="/health" element={<News setprogress={setprogress} apikey={apikey} key="health" pageSize={pageSize} country="in" category="health" />} />
+        <Route path="/science" element={<News setprogress={setprogress} apikey={apikey} key="science" pageSize={pageSize} country="in" category="science" />} />
+        <Route path="/sports" element={<News setprogress={setprogress} apikey={apikey} key="sports" pageSize={pageSize} country="in" category="sports" />} />
+        <Route path="/technology" element={<News setprogress={setprogress} apikey={apikey} key="technology" pageSize={pageSize} country="in" category="technology" />} />
       </Routes>
 
     </div>

@@ -14,7 +14,7 @@ export default function Navbar() {
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-Link"> <Link className="nav-link text-light" to="/">Home</Link> </li>
               {/* <li className="nav-item"> <Link  className="nav-link text-light" to="/general">General</Link></li> */}
-              <li className="nav-item"> <Link className="nav-link text-light" to="/business">Business </Link></li>
+              {/* <li className="nav-item"> <Link className="nav-link text-light" to="/business">Business </Link></li> */}
               <li className="nav-item"> <Link className="nav-link text-light" to="/entertainment">Entertainment</Link></li>
               <li className="nav-item"> <Link className="nav-link text-light" to="/health">Health</Link></li>
               <li className="nav-item"> <Link className="nav-link text-light" to="/science">Science</Link></li>
