@@ -21,8 +21,8 @@ export default function App() {
       <LoadingBar color='green' height={4} progress={progress} />
       
       
-      <Routes basename="/NewsFever-react">
-        <Route exact path="/NewsFever-react" element={<News setprogress={setprogress} apikey={apikey} key="home" pageSize={pageSize} country="in" category="" />} />
+      <Routes>
+        <Route exact path="/" element={<News setprogress={setprogress} apikey={apikey} key="home" pageSize={pageSize} country="in" category="" />} />
         <Route exact path="/general" element={<News setprogress={setprogress} apikey={apikey} key="general " pageSize={pageSize} country="in" category="general" />} />
         <Route exact path="/business " element={<News setprogress={setprogress} apikey={apikey} key="business" pageSize={pageSize} country="in" category="business" />} />
         <Route exact path="/entertainment" element={<News setprogress={setprogress} apikey={apikey} key="entertainment" pageSize={pageSize} country="in" category="entertainment" />} />
